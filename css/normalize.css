@@ -1,4 +1,5 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 /**
  * 1. Set default font family to sans-serif.
@@ -230,9 +231,14 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1em;
-  background-color: #f2f2f2;
+}
+
+p code {
+  background-color: #fafafa;
+  border: 1px #cccccc solid;
+  border-radius: 0.5rem;
 }
 
 /* Forms

@@ -1,5 +1,5 @@
-/*#66C694*/
-/*#574CDD*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;500;600;700;800;900&display=swap');
+
 * {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
@@ -9,7 +9,7 @@
 
 body {
   font-size: 16px;
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -242,7 +242,7 @@ section {
   margin-top: 20px;
   background: #66C694;
   /* Download Resume: */
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   /*padding: 15px 50px;*/
   color: #C3D5FF;
@@ -255,8 +255,8 @@ section {
 
 .title {
   /* My Process: */
-  font-family: Roboto;
-  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
   margin: 0;
   font-size: 44px;
   color: #000000;
@@ -426,7 +426,7 @@ section {
 
 .main-case-study .subtitle {
   /* Mobile App Design: */
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-size: 22px;
   color: #66C694;
@@ -435,7 +435,7 @@ section {
 
 .main-case-study .summary {
   /* The objective of thi: */
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 24px;
   color: #000000;
@@ -513,7 +513,7 @@ section {
 
 .content-case-study p , li{
   /* Each member of our t: */
-  font-family: Roboto;
+  font-family: 'Lato', sans-serif;
   font-size: 19px;
   color: #676767;
   letter-spacing: 0;
@@ -533,6 +533,7 @@ section {
 .content-case-study h1 {
   margin: 0;
   margin-top: 2.4em;
+  font-weight: 800;
 }
 
 @media all and (max-width: 513px) {
