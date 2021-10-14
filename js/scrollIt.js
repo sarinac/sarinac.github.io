@@ -18,11 +18,11 @@
     var defaults = {
         upKey: 38,
         downKey: 40,
-        easing: 'linear',
-        scrollTime: 600,
+        easing: 'swing',
+        scrollTime: 1000,
         activeClass: 'active',
         onPageChange: null,
-        topOffset : 0
+        topOffset : 20
     };
 
     $.scrollIt = function(options) {
