@@ -156,6 +156,8 @@ a {
     height: calc(100vh - 49px);
     width: 100vw;
     display: flex;
+}
+.title-background-right {
     justify-content: end;
 }
 
@@ -290,6 +292,10 @@ footer {
     color: #eaac61;
 }
 
+.footer-icon {
+    padding-right: 2px;
+}
+
 /* ------------ CONTENT ------------ */
 /* Page title/paragraph + about me */
 
@@ -297,10 +303,6 @@ footer {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.5rem;
-}
-
-.content-body {
-
 }
 
 .top-spacing {
@@ -335,10 +337,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .showcase {
-        padding-top: 4rem;
-        padding-bottom: 2rem;
-    }
     .showcase-summary-right {
         display: none;
     }
@@ -371,7 +369,18 @@ footer {
 .showcase-summary-buttons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 1rem 0rem;
+}
+
+.showcase-summary-button {
+    background-color: #20cc94;
+    -webkit-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    border-radius: 0.2rem;
+    padding: 0.6rem 1rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .showcase-summary-button a {
@@ -379,19 +388,12 @@ footer {
     color: #ffffff;
     font-family: "Andale Mono", "Source Sans Pro";
     text-transform: lowercase;
-    background-color: #20cc94;
-    text-decoration: none;
-    -webkit-transition: 0.2s ease-in;
-    transition: 0.2s ease-in;
-    border-radius: 0.2rem;
-    padding: 0.6rem 1rem;
-    margin-right: 0.5rem;
 }
 
-.showcase-summary-button:nth-child(1) a {
+.showcase-summary-button:nth-child(1) {
     background-color: #00a1e1;
 }
-.showcase-summary-button a:hover {
+.showcase-summary-button:hover {
     background-color: #eaac61;
 }
 
@@ -560,7 +562,7 @@ pre {
     margin: 2rem 0 2rem 0;
     padding: 1rem;
     max-width: 100%;
-    word-break: break-word;
+    /* word-break: break-word; */
 }
 @media (max-width: 768px) {
     pre {
